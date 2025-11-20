@@ -1,0 +1,82 @@
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.navbar {
+    background-color: #240046;
+}
+.navbar .nav-link.active {
+    background-color:#5A189A;
+}
+.navbar .dropdown-item.active {
+    background-color: #5A189A;
+    color: white;
+}
+.navbar a:hover {
+    background-color: #7B2CBF;
+    color: white;
+}
+strong {
+    color: #C77DFF;
+}
+
+#skip a {
+    position: absolute;
+    top: -10000px;
+    width: 1px;
+    height: 1px;
+}
+#skip a:focus {
+    top: 0px;
+    width: auto;
+    height: auto;
+    background-color: white;
+}
+
+img {
+    height: auto;
+    width: auto;
+}
+
+#businesscard {
+    width: 50vh;
+}
+
+#topBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #5A189A;
+    color: white;
+    padding: 12px 16px;
+    border: none;
+    border-radius: 10%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    z-index: 1000;
+    max-width: 70px;
+}
+
+#topBtn:hover {
+    background-color: #7B2CBF;
+}
+
+button {
+    background-color: #5A189A;
+    color: white;
+    padding: 12px 16px;
+    border: none;
+    border-radius: 10%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    width: 75%;
+    max-width: 320px;
+
+}
+button:hover {
+    background-color: #7B2CBF;
+}
+.icon {
+    width: 10%;
+}
